@@ -1,0 +1,44 @@
+#overlayForModal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: gray;
+}
+
+#modalContainer {
+  border: 3px solid black;
+  width: 50vw;
+  height: 40vh;
+  margin: 20vh auto;
+
+  border-radius: 0.3rem;
+  padding: 0;
+
+  background-color: white;
+}
+
+#modalContainer header {
+  background-color: cornflowerblue;
+  height: 3rem;
+  margin: 0;
+
+  display: flex;
+  justify-content: end;
+}
+
+#modalContainer header button {
+  border: 0;
+  height: auto;
+  width: 3rem;
+  color: red;
+  font-size: large;
+  font-weight: 600;
+}
+
+#modalContainer main {
+  height: 3rem;
+  display: grid;
+  place-items: center;
+}
